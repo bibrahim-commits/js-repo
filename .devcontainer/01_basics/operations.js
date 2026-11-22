@@ -9,3 +9,6 @@ console.log(2 > 1);
 console.log("2" > 1);
 console.log(null > 0);
 console.log("2" === 2);
+console.log(`Hey my name is ${str2} and i am 21 years old`);
+console.log(str2.length);
+console.log(str2.toUpperCase());
