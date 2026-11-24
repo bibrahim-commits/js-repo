@@ -45,5 +45,28 @@ function SayMyName(){
     }
     return `${username} just logged in`
  }
- console.log( loginuser())
- 
+ console.log( loginuser("Bushra"))
+ function calculateprice(...num1){
+      return num1
+ }
+ console.log(calculateprice(200, 300, 400))
+
+ const user = {
+    username: "Bushra",
+    price: 200
+ }
+ function handleobj(anyobj)
+ {
+     console.log(`username is ${anyobj.username} and price is ${anyobj.price}`);
+ }
+ //handleobj(user)
+ handleobj({
+    username: "Zahra",
+    price: 233
+ })
+ const myArray = [ 200, 300, 400, 500]
+
+ function returnvalue(getArray){
+    return getArray[3]
+ }
+  console.log(returnvalue(myArray));
