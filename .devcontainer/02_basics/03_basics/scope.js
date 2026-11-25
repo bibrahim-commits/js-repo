@@ -3,7 +3,7 @@
     let a = 10
     const b = 20
 }
-console.log(a);
+//console.log(a);
 function one(){
      const username = "Bushra"
      function two(){
@@ -15,4 +15,19 @@ function one(){
      two()
 }
 one()
-    
+if (true){
+    const username = "Bushra";
+    if(username == "Bushra"){
+       const website = " Youtube"
+       console.log(username + website);
+    }
+   // console.log(website); error
+}
+  // console.log(username); error
+  // ++++++++++++++++++ concept ++++++++++++++++
+  function addone(num){
+   return + 1
+  }
+ console.log(addone(5))
+
+ 
