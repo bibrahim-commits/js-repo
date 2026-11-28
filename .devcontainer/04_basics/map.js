@@ -19,3 +19,19 @@ const total = score.reduce(function ( acc, curval) {
     return acc + curval
 }, 0 )
 console.log(total);
+const shoppingCart = [
+    {
+    itemName: "js course",
+    price: 2999
+}, 
+  {
+    itemName: "python",
+    price: 3999
+  }, 
+  {
+    itemName: "DSA course",
+    price: 4999
+}, 
+]
+const pay = shoppingCart.reduce((acc, item) => acc + item.price, 0)
+console.log(pay);
